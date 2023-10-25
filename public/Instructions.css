@@ -1,0 +1,33 @@
+.instructions {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: medium;
+    text-align: justify;
+    border-right: 1px solid #C2C2C2;
+    border-left: 1px solid #C2C2C2;
+    background-color: #ffffff;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.instructions button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #C2C2C2;
+    color: #ffffff;
+    transition: all 0.6s;
+    cursor: pointer;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.instructions button:hover {
+    background-color: #14b614;
+}

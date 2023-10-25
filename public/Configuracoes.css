@@ -1,0 +1,29 @@
+.Configuracoes {
+    width: 56%;
+    position: relative;
+    top: 6vh;
+    left: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: medium;
+    background-color: #ffffff;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.Configuracoes p {
+    height: 50px;
+    margin: 15px 0;
+    cursor: pointer;
+    border-bottom: 1px solid #C2C2C2;
+}
+
+.Configuracoes a {
+    height: 50px;
+    margin: 15px 0;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    border-bottom: 1px solid #C2C2C2;
+}

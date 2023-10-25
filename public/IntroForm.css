@@ -1,0 +1,65 @@
+.IntroForm {
+    margin: auto;
+    background-color: #FAF7F7;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.IntroForm input {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    padding-left: 10px;
+    height: 32px;
+    border: 1px solid #949292;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.IntroForm button {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    border: none;
+    border-radius: 30px;
+    box-sizing: border-box;
+    background-color: #949292;
+    transition: all 0.6s;
+}
+
+.IntroForm button:disabled:hover {
+    background-color: #8312cf;
+}
+
+
+.IntroForm button:hover {
+    background-color: #14b614;
+}
+
+#introForm-container h2 {
+    margin: 0;
+    font-size: 4rem;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+#introForm-container h2>img {
+    filter: invert();
+    width: 50px;
+}
+
+#introForm-container {
+    width: 15%;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}

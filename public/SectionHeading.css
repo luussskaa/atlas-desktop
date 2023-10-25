@@ -1,0 +1,22 @@
+.SectionHeading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SectionHeading img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.SectionHeading a {
+    display: flex;
+}
+
+.SectionHeading div:last-child {
+    width: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

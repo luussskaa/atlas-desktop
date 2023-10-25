@@ -1,0 +1,78 @@
+.AppForm {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.AppForm div {
+    /* width: 70%; */
+    /* height: 120px; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.AppForm input,
+select {
+    width: 140px;
+    height: 50px;
+    margin-right: 10px;
+    border: 0px;
+    font-size: 1rem;
+    border-bottom: 1px solid #C2C2C2;
+    text-align: end;
+    box-sizing: border-box;
+}
+
+.AppForm input:first-child {
+    width: 200px;
+    text-align: start;
+}
+
+#button-container {
+    display: flex;
+}
+
+.AppForm button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #C2C2C2;
+    color: #ffffff;
+    transition: all 0.6s;
+    cursor: pointer;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+#confirm:hover {
+    background-color: #14b614;
+}
+
+#cancel:hover {
+    background-color: #cf2e12;
+}
+
+#delete:hover {
+    background-color: #000000;
+}
+
+.AppForm button:disabled:hover {
+    background-color: #8312cf;
+}
+
+#warning {
+    height: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
