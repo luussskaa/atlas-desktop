@@ -1,13 +1,17 @@
 # Atlas
 
-This template should help get you started developing with Tauri and React in Vite.
-
 ## O que é o Atlas?
 
-Trata-se de uma plataforma desenvolvida para ajudar pessoas a administrar suas finanças pessoais de forma prática.
+Trata-se de uma aplicação desenvolvida para ajudar pessoas a administrar suas finanças pessoais de forma prática.
 
 ## Do que o Atlas é feito?
 
 A presente versão do projeto foi desenvolvida usando React e Tauri. A armazenagem de dados é feita via 'localStorage' e ha 2 dependências adicionadas à parte (React Router e 'uuid').
 
-### Do que o Atlas é feito?
+## Como o Atlas funciona?
+
+### 1 - ABAS E FUNCIONALIDADES
+
+A aplicação contém 7 abas que juntas representam toda as funcionalidades atualmente implementadas. Dentro de cada aba, e possível adicionar, editar e remover uma série de informações. Mais sobre as abas:
+
+#### 1 - ABAS E FUNCIONALIDADES
