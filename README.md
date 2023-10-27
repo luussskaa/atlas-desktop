@@ -96,24 +96,27 @@ O relatório contém as seguintes informações: "Recursos restantes", "Poupanç
 
 **Importante**: o usuário deve finalizar o mês apenas quando tiver concluído todas as atividades do mês atual, pois não é possivel voltar atrás uma vez que o mês tenha sido dado como encerrado!
 
-#### 1.8 - Informações e opções do usuário
+### 2 - LIMITAÇÕES
+
+A aplicação foi propositalmete limitada em 2 aspectos importantes, justamente para viabilizar apenas boas práticas em gestão de finanças pessoais. Dessa forma, NÃO é possível:
+
+#### 2.1 - Indicar o pagamento de contas com opções de crédito.
+
+Além disso:
+
+#### 2.2 - Faturas de opção de crédito surgem apenas no mês seguinte:
+De forma que, não é possível adicionar um gasto (seja uma despesa ou parcelamento) vinculado à uma opção de crédito e pagar a fatura referente à esse gasto no mesmo mês em que ele foi adicionado (como no caso de cartões de crédito cuja data de fechamento da fatura estejam no início de um um mês e não ao final). Assim, o uso de opções de crédito se torna mais criterioso e programado.
+
+### 3 - OPÇÕES DO USUÁRIO
 
 Você sempre poderá visualizar um painel lateral (lado direito), contendo o resumo de todas as informações pertinentes ao mês em questão, incluindo o "Resultado" atual do mês. Esse resultado se refere à soma de todos os recursos, subtraindo o valor de todas as contas ainda não pagas e despesas do mês.
 
 **Opções do usuário**: "Recomeçar" (um reset completo da plataforma, caso você queira começar de novo, por alguma razão 🤔) e "Mais informações", que torna possível visualizar todos os pontos dessa página novamente.
 
+## Privacidade
+
 A aplicação não coleta e nem requere nenhuma informação pessoal ou bancária do usuário e nenhum dado relacionado ao dispositivo utilizado para acesso.
-
-### 2 - BOAS PRÁTICAS EM GESTÃO DE FINANÇAS PESSOAIS
-
-A aplicação foi propositalmetelimitada em 2 aspectos importantes, justamente para viabilizar apenas boas práticas em gestão de finanças pessoais. Dessa forma, NÃO é possível:
-
-#### 2.1 - Indicar o pagamento de contas com opções de crédito:
-Entendemos que pode ser necessário, em situações emergenciais. Ainda assim, procuramos desencorajar a prática, que pode levar à complicações financeiras ainda piores.
-
-#### 2.2 - Faturas de opção de crédito surgem apenas no mês seguinte:
-Procuramos encorajar um uso mais criterioso e planejado de opções de crédito. Por isso, as faturas de opções de crédito surgem apenas no mês seguinte, de forma que, não é possível adicionar um gasto (seja uma despesa ou parcelamento) à uma opção de crédito e pagar a fatura referente à esse gasto no mesmo mês em que o mesmo foi adicionado (como no caso de cartões de crédito cuja data de fechamento da fatura estejam no início de um um mês e não ao final).
 
 ## Colaborações
 
-A aplicação é um projeto para uso pessoal e estudo. Colaborações não são necessárias.
+A aplicação é um projeto para uso pessoal desenvolvida por um estudante. No momento, colaborações não são necessárias e não são cogitadas.
