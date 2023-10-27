@@ -18,6 +18,6 @@ A aplicação contém 7 abas que juntas representam toda as funcionalidades atua
 
 #### 1.1 - Recursos
 Recursos são todos os valores financeiros disponíveis no momento e que podem ser direcionados para qualquer fim. Ao adicionar um recurso, você deve informar: um nome para o recurso e seu valor correspondente.
-#Exemplos#: salário, saldo em conta bancário, rendimentos financeiros, etc.
+#Exemplos: salário, saldo em conta bancário, rendimentos financeiros, etc.
 
 
