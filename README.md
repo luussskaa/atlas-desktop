@@ -17,7 +17,10 @@ A presente versão do projeto foi desenvolvida usando React e Tauri. A armazenag
 A aplicação contém 7 abas que juntas representam toda as funcionalidades atualmente implementadas. Dentro de cada aba, e possível adicionar, editar e remover uma série de informações. Mais sobre as abas:
 
 #### 1.1 - Recursos
-Recursos são todos os valores financeiros disponíveis no momento e que podem ser direcionados para qualquer fim. Ao adicionar um recurso, você deve informar: um nome para o recurso e seu valor correspondente.
-#Exemplos: salário, saldo em conta bancário, rendimentos financeiros, etc.
+Recursos são todos os valores financeiros disponíveis no momento e que podem ser direcionados para qualquer fim.
+
+Ao adicionar um recurso, você deve informar: um nome para o recurso e seu valor correspondente.
+
+Exemplos: salário, saldo em conta bancário, rendimentos financeiros, etc.
 
 
