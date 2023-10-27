@@ -46,6 +46,12 @@ Contas são gastos mensais recorrentes e diretamente relacionados ao seu custo d
 
 Ao adicionar uma conta, o usuário deve informar: um nome para a conta, o valor correspondente e data de vencimento.
 
+Quando uma conta é adicionada, a mesma aparece na página inicial como um cartão contendo todas as informações indicadas pelo usuário (nome da conta, valor e data de vencimento). O usuário deve indicar o pagamento das contas cadastradas através desses cartões.
+
+Contudo, só é possível indicar o pagamento de uma conta hanvendo um recurso disponível cujo valor seja ao menos igual ao da conta em questão. Afinal de contas, precisamos utilizar algum recurso existente para pagar contas, não é mesmo?
+
+Ao indicar o pagamento de uma conta, o valor da mesma é deduzido do recurso pagante indicado pelo usuário.
+
 Exemplos: faturas de água, energia elétrica, internet, etc.
 
 #### 1.4 - Despesas
@@ -68,9 +74,15 @@ Ao adicionar um parcelamento, o usuário deve informar: um nome para o parcelame
 
 #### 1.6 - Créditos
 
-Similares aos recursos, os créditos disponíveis estão vinculados à cartões de crédito e podem ser utilizados no pagamento de despesas e compras à prazo. Entretanto, sua utilização possui algumas particularidades das quais abordaremos mais à frente.
+Os créditos disponíveis podem ser utilizados no pagamento de despesas e em parcelamentos. Entretanto, sua utilização possui algumas particularidades:
+
+**Despesas, Recursos e Créditos**: o pagamento de despesas normalmente é feito no ato. Por isso, ao adicionar uma nova despesa, você deve indicar um recurso (caso o pagamento seja à vista ou no débito) ou uma opção de crédito (caso o pagamento seja no crédito) pagante. Recursos e opções de crédito só podem ser indicados como pagantes caso tenham um valor, ao menos, igual ao valor da despesa em questão. Quando um recurso é indicado como o pagador de uma despesa, o valor da despesa é deduzido do recurso indicado. O mesmo vale para opções de crédito, havendo um adendo importante: despesas relacionadas à uma opção de crédito geram uma fatura para aquela opção de crédito. Falaremos mais sobre faturas em breve.
+
+**Parcelamentos e Crédito**: só é possível adicionar um novo parcelamento tendo uma opção de crédito previamente cadastrada cujo o valor do crédito disponível seja, ao menos, igual ao valor do parcelamento total (dado pelo valor da parcela multiplicado pelo número de parcelas), assim como você precisa de um cartão de crédito para comprar no crédito. Além disso, assim como nas despesas pagas com opções de crédito, os parcelamentos relacionados à uma opção de crédito são adicionados à fatura da opção de credito em questão. Importante: O Atlas atualiza automaticamente o progresso dos seus parcelamentos no tempo e os remove automaticamente quando o parcelamento chega ao fim.
 
 Ao adicionar uma opção de crédito, o usuário deve informar: um nome para a opção de crédito, o limite total correspondente e a data de vencimento.
+
+
 
 #### 1.7 - Relatórios
 
