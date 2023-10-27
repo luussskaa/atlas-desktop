@@ -117,6 +117,10 @@ Você sempre poderá visualizar um painel lateral (lado direito), contendo o res
 
 A aplicação não coleta e nem requere nenhuma informação pessoal ou bancária do usuário e nenhum dado relacionado ao dispositivo utilizado para acesso.
 
+## Futuro do projeto
+
+No futuro, o Atlas deixará de ser um software offline e se tornará uma aplicação web, desenvolvida com o MERN stack, contando também com uma versão para dispositivos móveis, esta desenvolvida com React Native. Antes deste próximo passo, a aplicação será atualizada, com algumas novas features e novos visuais. O código está sendo revisado e features atuais podem ser melhoradas.
+
 ## Colaborações
 
 A aplicação é um projeto para uso pessoal desenvolvida por um estudante. No momento, colaborações não são necessárias e não são cogitadas.
