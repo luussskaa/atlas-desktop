@@ -17,23 +17,26 @@ O projeto está sendo desenvolvido utilizando React e Tauri. A armazenagem de da
 
 ## Como o Atlas funciona?
 
-### 1 - ABAS E FUNCIONALIDADES
+### 1 - CONCEITOS E FUNCIONALIDADES
 
+Dentro da aplicação, o usuário pode adicionar, editar e remover uma série de informações sobre seus recursos financeiros disponíveis, poupanças abertas, contas, despesas, parcelamentos e opções de crédito.
 
-A aplicação contém 7 abas que juntas representam toda as funcionalidades atualmente implementadas. Dentro de cada aba, e possível adicionar, editar e remover uma série de informações. Mais sobre as abas:
+Ao longo de cada mês, o usuário deve alimentar a aplicação com os dados necessários. Quando todas as atividades referentes ao mês forem concluídas, o usuário deve "finalizar o mês", fazendo com que a plataforma avance para o mês seguinte. As dados fornecidos pelo usuário muitas vezes se relacionam entre si e com o tempo. Confira a seguir os detalhes:
 
 #### 1.1 - Recursos
 Recursos são todos os valores financeiros disponíveis no momento e que podem ser direcionados para qualquer fim.
 
-Ao adicionar um recurso, você deve informar: um nome para o recurso e seu valor correspondente.
+Ao adicionar um recurso, o usuário deve informar: um nome para o recurso e seu valor correspondente.
 
-Exemplos: salário, saldos em contas bancárias, rendimentos financeiros, etc.
+**Exemplos**: salário, saldos em contas bancárias, rendimentos financeiros, etc.
 
 #### 1.2 - Poupanças
 
 Poupanças são recursos preservados para alguma finalidade.
  
-Ao adicionar uma poupança, você deve informar: um nome para a poupança, o valor correspondente e o recurso financiador.
+Ao adicionar uma poupança, o usuário deve informar: um nome para a poupança, o valor correspondente e o recurso financiador.
+
+**Recurso Financiador**: os valores poupados registrados na aba "Poupanças" precisam vir de algum lugar, da mesma forma que você só pode poupar um recurso que possui. Por isso, só é possível cadastrar uma poupança havendo um recurso disponível cujo valor seja ao menos igual ao da poupança pretendida. Quando uma poupança é adicionada, o valor poupado é deduzido do recurso indicado pelo usuário - o "recurso financiador".
 
 Exemplo: guardar dinheiro para uma viagem, para uma compra à vista, etc.
 
@@ -41,7 +44,7 @@ Exemplo: guardar dinheiro para uma viagem, para uma compra à vista, etc.
 
 Contas são gastos mensais recorrentes e diretamente relacionados ao seu custo de vida. Seus valores tendem a seguir uma certa média.
 
-Ao adicionar uma conta, você deve informar: um nome para a conta, o valor correspondente e data de vencimento.
+Ao adicionar uma conta, o usuário deve informar: um nome para a conta, o valor correspondente e data de vencimento.
 
 Exemplos: faturas de água, energia elétrica, internet, etc.
 
@@ -51,7 +54,7 @@ Despesas são gastos à parte das contas a serem pagas todos os meses. Podem ser
 
 Despesas normalmente são pagas no ato, sendo esses pagamentos vinculados à recursos ou créditos disponíveis.
 
-Ao adicionar uma despesa, você deve informar: um nome para a despesa, o valor correspondente, a data do pagamento (data de ocorrência da despesa), e o recurso ou opção de crédito utilizado para efetuar o pagamento.
+Ao adicionar uma despesa, o usuário deve informar: um nome para a despesa, o valor correspondente, a data do pagamento (data de ocorrência da despesa), e o recurso ou opção de crédito utilizado para efetuar o pagamento.
 
 Além disso, você também deve informar a categoria da despesa adicionada. Despesas podem ter as seguintes categorias: "Casa", "Transporte", "Alimentação", "Saúde", "Lazer", "Taxas/Impostos" e "Outro".
 
@@ -61,13 +64,13 @@ Exemplos: jantar fora, comprar um presente, ir ao cinema, compras no supermercad
 
 Parcelas são as partes de uma compra à prazo, utilizando créditos disponíveis ao invés de recursos.
 
-Ao adicionar um parcelamento, você deve informar: um nome para o parcelamento, o valor correspondente a cada parcela, o número total de parcelas e a opção de crédito relacionada.
+Ao adicionar um parcelamento, o usuário deve informar: um nome para o parcelamento, o valor correspondente a cada parcela, o número total de parcelas e a opção de crédito relacionada.
 
 #### 1.6 - Créditos
 
 Similares aos recursos, os créditos disponíveis estão vinculados à cartões de crédito e podem ser utilizados no pagamento de despesas e compras à prazo. Entretanto, sua utilização possui algumas particularidades das quais abordaremos mais à frente.
 
-Ao adicionar uma opção de crédito, você deve informar: um nome para a opção de crédito, o limite total correspondente e a data de vencimento.
+Ao adicionar uma opção de crédito, o usuário deve informar: um nome para a opção de crédito, o limite total correspondente e a data de vencimento.
 
 #### 1.7 - Relatórios
 
