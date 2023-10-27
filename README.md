@@ -50,6 +50,8 @@ Quando uma conta é adicionada, a mesma aparece na página inicial como um cart�
 
 Contudo, só é possível indicar o pagamento de uma conta hanvendo um recurso disponível cujo valor seja ao menos igual ao da conta em questão. Afinal de contas, precisamos utilizar algum recurso existente para pagar contas, não é mesmo?
 
+Contas não pagas permanecerão em aberto nos meses seguintes até serem pagas. O usuário pode alterar o valor das mesmas para atualizá-los conforme juros cabíveis em função do atraso.
+
 Ao indicar o pagamento de uma conta, o valor da mesma é deduzido do recurso pagante indicado pelo usuário.
 
 Exemplos: faturas de água, energia elétrica, internet, etc.
@@ -72,17 +74,19 @@ Parcelas são as partes de uma compra à prazo, utilizando créditos disponívei
 
 Ao adicionar um parcelamento, o usuário deve informar: um nome para o parcelamento, o valor correspondente a cada parcela, o número total de parcelas e a opção de crédito relacionada.
 
+**Importante**: O Atlas atualiza automaticamente o progresso dos seus parcelamentos no tempo e os remove automaticamente quando o parcelamento chega ao fim.
+
 #### 1.6 - Créditos
 
 Os créditos disponíveis podem ser utilizados no pagamento de despesas e em parcelamentos. Entretanto, sua utilização possui algumas particularidades:
 
 **Despesas, Recursos e Créditos**: o pagamento de despesas normalmente é feito no ato. Por isso, ao adicionar uma nova despesa, você deve indicar um recurso (caso o pagamento seja à vista ou no débito) ou uma opção de crédito (caso o pagamento seja no crédito) pagante. Recursos e opções de crédito só podem ser indicados como pagantes caso tenham um valor, ao menos, igual ao valor da despesa em questão. Quando um recurso é indicado como o pagador de uma despesa, o valor da despesa é deduzido do recurso indicado. O mesmo vale para opções de crédito, havendo um adendo importante: despesas relacionadas à uma opção de crédito geram uma fatura para aquela opção de crédito. Falaremos mais sobre faturas em breve.
 
-**Parcelamentos e Crédito**: só é possível adicionar um novo parcelamento tendo uma opção de crédito previamente cadastrada cujo o valor do crédito disponível seja, ao menos, igual ao valor do parcelamento total (dado pelo valor da parcela multiplicado pelo número de parcelas), assim como você precisa de um cartão de crédito para comprar no crédito. Além disso, assim como nas despesas pagas com opções de crédito, os parcelamentos relacionados à uma opção de crédito são adicionados à fatura da opção de credito em questão. Importante: O Atlas atualiza automaticamente o progresso dos seus parcelamentos no tempo e os remove automaticamente quando o parcelamento chega ao fim.
+**Parcelamentos e Crédito**: só é possível adicionar um novo parcelamento tendo uma opção de crédito previamente cadastrada cujo o valor do crédito disponível seja, ao menos, igual ao valor do parcelamento total (dado pelo valor da parcela multiplicado pelo número de parcelas), assim como você precisa de um cartão de crédito com limite disponível para comprar parcelado. Além disso, assim como nas despesas pagas com opções de crédito, os parcelamentos relacionados à uma opção de crédito são adicionados à fatura da opção de credito em questão.
+
+**Créditos e Faturas**: faturas de opção de crédito são contas adicionadas às contas do mês seguinte que consideram o montante de todos os gastos relacionados à uma opção de crédito (despesas e valores de parcelas). Essas faturas representam à fatura do cartão de crédito que a opção de crédito cadastrada representa.
 
 Ao adicionar uma opção de crédito, o usuário deve informar: um nome para a opção de crédito, o limite total correspondente e a data de vencimento.
-
-
 
 #### 1.7 - Relatórios
 
@@ -90,4 +94,26 @@ Após concluir todas as operações do mês (inclusão de recursos, de despesas,
 
 O relatório contém as seguintes informações: "Recursos restantes", "Poupança no período", "Contas pagas", "Contas atrasadas" (contas que não foram pagas no mês), "Despesas do período", "Parcelas do período" e "Créditos restantes".
 
-**Importante**: Apenas finalize o mês quando tiver concluído todas as atividades do mês atual, pois não é possivel voltar atrás mais tarde!
+**Importante**: o usuário deve finalizar o mês apenas quando tiver concluído todas as atividades do mês atual, pois não é possivel voltar atrás uma vez que o mês tenha sido dado como encerrado!
+
+#### 1.8 - Informações e opções do usuário
+
+Você sempre poderá visualizar um painel lateral (lado direito), contendo o resumo de todas as informações pertinentes ao mês em questão, incluindo o "Resultado" atual do mês. Esse resultado se refere à soma de todos os recursos, subtraindo o valor de todas as contas ainda não pagas e despesas do mês.
+
+**Opções do usuário**: "Recomeçar" (um reset completo da plataforma, caso você queira começar de novo, por alguma razão 🤔) e "Mais informações", que torna possível visualizar todos os pontos dessa página novamente.
+
+A aplicação não coleta e nem requere nenhuma informação pessoal ou bancária do usuário e nenhum dado relacionado ao dispositivo utilizado para acesso.
+
+### 2 - BOAS PRÁTICAS EM GESTÃO DE FINANÇAS PESSOAIS
+
+A aplicação foi propositalmetelimitada em 2 aspectos importantes, justamente para viabilizar apenas boas práticas em gestão de finanças pessoais. Dessa forma, NÃO é possível:
+
+#### 2.1 - Indicar o pagamento de contas com opções de crédito:
+Entendemos que pode ser necessário, em situações emergenciais. Ainda assim, procuramos desencorajar a prática, que pode levar à complicações financeiras ainda piores.
+
+#### 2.2 - Faturas de opção de crédito surgem apenas no mês seguinte:
+Procuramos encorajar um uso mais criterioso e planejado de opções de crédito. Por isso, as faturas de opções de crédito surgem apenas no mês seguinte, de forma que, não é possível adicionar um gasto (seja uma despesa ou parcelamento) à uma opção de crédito e pagar a fatura referente à esse gasto no mesmo mês em que o mesmo foi adicionado (como no caso de cartões de crédito cuja data de fechamento da fatura estejam no início de um um mês e não ao final).
+
+## Colaborações
+
+A aplicação é um projeto para uso pessoal e estudo. Colaborações não são necessárias.
