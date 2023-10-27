@@ -2,17 +2,23 @@
 
 ## O que é o Atlas?
 
-Trata-se de uma aplicação desenvolvida para ajudar pessoas a administrar suas finanças pessoais de forma prática.
+Trata-se de uma aplicação multiplataforma desenvolvida para ajudar pessoas a administrar suas finanças pessoais de forma prática.
+
+
+## Instalação e uso
+
+Basta fazer download de **Atlas.exe** (ver Releases) e executá-lo. A aplicação é portátil e pode ser utilizada em qualquer sistema operacional.
 
 
 ## Do que o Atlas é feito?
 
-A presente versão do projeto foi desenvolvida usando React e Tauri. A armazenagem de dados é feita via 'localStorage' e há 2 dependências adicionadas à parte (React Router e 'uuid').
+O projeto está sendo desenvolvido utilizando React e Tauri. A armazenagem de dados é feita via 'localStorage' e há 2 dependências fundamentais adicionadas à parte (React Router e 'uuid').
 
 
 ## Como o Atlas funciona?
 
 ### 1 - ABAS E FUNCIONALIDADES
+
 
 A aplicação contém 7 abas que juntas representam toda as funcionalidades atualmente implementadas. Dentro de cada aba, e possível adicionar, editar e remover uma série de informações. Mais sobre as abas:
 
@@ -65,3 +71,8 @@ Ao adicionar uma opção de crédito, você deve informar: um nome para a opçã
 
 #### 1.7 - Relatórios
 
+Após concluir todas as operações do mês (inclusão de recursos, de despesas, de eventuais parcelas, inclusão e pagamento de contas, etc), você deve clicar em 'Finalizar mês', opção disponível na página inicial da plataforma. Ao finalizar o mês atual, um novo relatório é gerado na aba "Relatórios", contendo uma apresentação simplificada do desempenho financeiro do mês a que ele se refere.
+
+O relatório contém as seguintes informações: "Recursos restantes", "Poupança no período", "Contas pagas", "Contas atrasadas" (contas que não foram pagas no mês), "Despesas do período", "Parcelas do período" e "Créditos restantes".
+
+**Importante**: Apenas finalize o mês quando tiver concluído todas as atividades do mês atual, pois não é possivel voltar atrás mais tarde!
