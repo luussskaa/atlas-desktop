@@ -2,7 +2,7 @@
 
 ## O que é o Atlas?
 
-Trata-se de uma aplicação multiplataforma desenvolvida para ajudar pessoas a administrar suas finanças pessoais de forma prática.
+Trata-se de uma aplicação multiplataforma para computadores desenvolvida para ajudar pessoas a administrar suas finanças pessoais de forma prática.
 
 
 ## Instalação e uso
